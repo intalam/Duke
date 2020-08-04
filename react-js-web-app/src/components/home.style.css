@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.item-container {
+  width: 50%;
+  margin: 50px;
+}
+
+.item {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  /* padding: 80px; */
+  background-color: #00539b;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+}
+a {
+  color: #fff;
+  border-bottom: none;
+  text-decoration: none;
+}
+
+.photo-link, .title-link {
+  color: #00539b;
+
+}
+
+.photo-link:hover, .title-link:hover {
+  text-decoration: underline;
+  
+}
